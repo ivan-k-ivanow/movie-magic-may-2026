@@ -41,10 +41,10 @@
 - [x] Show static search page
 - [x] Render all movies
 - [x] Modify search form
-- [] Filter movies
-    - [] By year
-    - [] By genre
-    - [] By title
+- [x] Filter movies
+    - [x] By year
+    - [x] By genre
+    - [x] By title
 - [] Remember search words
 ### Bonuses
 - [] Dynamic page title (basic)
