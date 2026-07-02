@@ -49,7 +49,7 @@
 ### Bonuses
 - [] Dynamic page title (basic)
 - [] Rating (temp solution)
-- [] File Presistance
+- [x] File Presistance
 
 
 
