@@ -32,6 +32,12 @@
 - [x] Redirect after creation
 - [x] Add unique id for each created movie
 ### Details
+- [x] Add navigation button for details page
+- [x] Add route with param for details page
+- [x] Get one movie from service
+- [x] Find movie by id from repository
+- [x] Render details page with dynamic data
+### Search
 
 
 
