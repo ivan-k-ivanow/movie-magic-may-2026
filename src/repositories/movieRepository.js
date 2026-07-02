@@ -18,7 +18,7 @@ async function getAll() {
 };
 
 const movieRepository = {
-    getAllMovies
+    getAll
 };
 
 export default movieRepository;

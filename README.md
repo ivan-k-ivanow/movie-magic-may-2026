@@ -16,6 +16,7 @@
 - [x] Add home controller
 - [x] Add movie data layer
 - [x] Add movie service
+- [x] Render single movie on home page
 - [] Render movies on home page
 - [] Show no movies screen
 
