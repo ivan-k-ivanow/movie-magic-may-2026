@@ -54,6 +54,17 @@
       "rating": 8.9,
       "description": "asdasdasd",
       "id": "f1199a15-6163-4213-a279-0cf7abe09a19"
+    },
+    {
+      "title": "Test Movie",
+      "category": "movie",
+      "genre": "Action",
+      "director": "Ivan",
+      "year": "2021",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/1280w/products/89058/93685/Joker-2019-Final-Style-steps-Poster-buy-original-movie-posters-at-starstills__62518.1669120603.jpg?c=2",
+      "rating": "5",
+      "description": "Test",
+      "id": "b3b8c007-1ef6-4467-815a-bdf31376e10d"
     }
   ]
 }

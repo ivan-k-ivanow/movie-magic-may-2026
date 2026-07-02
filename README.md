@@ -25,12 +25,12 @@
 - [x] Add routes
 - [x] Add 404 page
 - [x] Ready body data
-- [] Create movie
-    - [] Add action
-    - [] Add Service
-    - [] Add model method for creating movie
-- [] Redirect after creation
-- [] Add unique if for each created movie
+- [x] Create movie
+    - [x] Add action
+    - [x] Add Service
+    - [x] Add repository
+- [x] Redirect after creation
+- [] Add unique id for each created movie
 ### Details
 
 
