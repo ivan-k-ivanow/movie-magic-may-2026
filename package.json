@@ -1,0 +1,21 @@
+{
+  "name": "movie-magic-may-2026",
+  "version": "1.0.0",
+  "description": "- [ ] Initialize Project\r - [ ] Add Express Server `npm 1 express`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-k-ivanow/movie-magic-may-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ivan-k-ivanow/movie-magic-may-2026/issues"
+  },
+  "homepage": "https://github.com/ivan-k-ivanow/movie-magic-may-2026#readme"
+}
