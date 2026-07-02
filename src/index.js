@@ -8,8 +8,12 @@ app.engine('hbs', engine());
 app.set('view engine', 'hbs');
 app.set('views', './src/views');
 
+// Setup static files
+app.use(express.static('src/public'));
+
 app.get('/', (req, res) => {
     res.render('home', { layout: false,title: 'Movie Magic' });
 });
+
 
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000...'));
