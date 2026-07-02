@@ -4,7 +4,9 @@ import { engine } from 'express-handlebars';
 const app = express();
 
 // Setup handlebars
-app.engine('hbs', engine());
+app.engine('hbs', engine({
+    extname: 'hbs',
+}));
 app.set('view engine', 'hbs');
 app.set('views', './src/views');
 
@@ -12,11 +14,11 @@ app.set('views', './src/views');
 app.use(express.static('src/public'));
 
 app.get('/', (req, res) => {
-    res.render('home', { layout: false,title: 'Movie Magic' });
+    res.render('home', { layout: 'main',title: 'Movie Magic' });
 });
 
 app.get('/about', (req, res) => {
-    res.render('about', { layout: false, title: 'About' });
+    res.render('about', { layout: 'main', title: 'About' });
 });
 
 
