@@ -30,7 +30,7 @@
     - [x] Add Service
     - [x] Add repository
 - [x] Redirect after creation
-- [] Add unique id for each created movie
+- [x] Add unique id for each created movie
 ### Details
 
 
