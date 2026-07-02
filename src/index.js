@@ -14,7 +14,11 @@ app.set('views', './src/views');
 // Setup static files
 app.use(express.static('src/public'));
 
+// Setup body parser
+app.use(express.urlencoded());
+
 // Setup routes
 app.use(routes);
 
+// Start the server
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000...'));
