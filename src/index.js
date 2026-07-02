@@ -15,5 +15,9 @@ app.get('/', (req, res) => {
     res.render('home', { layout: false,title: 'Movie Magic' });
 });
 
+app.get('/about', (req, res) => {
+    res.render('about', { layout: false, title: 'About' });
+});
+
 
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000...'));
