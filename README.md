@@ -18,7 +18,20 @@
 - [x] Add movie service
 - [x] Render single movie on home page
 - [x] Render movies on home page
-- [] Show no movies screen
+- [x] Show no movies screen
+### Create Movie
+- [] Add Movie Controller
+- [] Show create movie page
+- [] Add routes
+- [] Add 404 page
+- [] Ready body data
+- [] Create movie
+    - [] Add action
+    - [] Add Service
+    - [] Add model method for creating movie
+- [] Redirect after creation
+- [] Add unique if for each created movie
+### Details
 
 
 
