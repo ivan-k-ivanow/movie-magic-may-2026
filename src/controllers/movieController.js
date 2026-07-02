@@ -29,7 +29,10 @@ movieController.get('/:movieId', async (req, res) => {
 
     const movie = await movieService.getById(movieId);
 
-    res.render('movies/details', { movie, pageTitle: 'Movie Details' });
+    // Quick and Dirty to prepare view data for the rating stars TODO: fix it
+    const ratingStars = '&#x2605;'.repeat(Math.floor(movie.rating));
+
+    res.render('movies/details', { movie, pageTitle: 'Movie Details', ratingStars });
 });
 
 export default movieController;
