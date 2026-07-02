@@ -38,6 +38,18 @@
 - [x] Find movie by id from repository
 - [x] Render details page with dynamic data
 ### Search
+- [] Show static search page
+- [] Render all movies
+- [] Modify search form
+- [] Filter movies
+    - [] By year
+    - [] By genre
+    - [] By title
+- [] Remember search words
+### Bonuses
+- [] Dynamic page title (basic)
+- [] Rating (temp solution)
+- [] File Presistance
 
 
 
