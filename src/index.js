@@ -1,6 +1,8 @@
 import express from 'express';
 import { engine } from 'express-handlebars';
 
+import homeController from './controllers/homeController.js';
+
 const app = express();
 
 // Setup handlebars
@@ -13,13 +15,7 @@ app.set('views', './src/views');
 // Setup static files
 app.use(express.static('src/public'));
 
-app.get('/', (req, res) => {
-    res.render('home', { layout: 'main',title: 'Movie Magic' });
-});
-
-app.get('/about', (req, res) => {
-    res.render('about', { layout: 'main', title: 'About' });
-});
-
+// Setup routes
+app.use('/', homeController);
 
 app.listen(5000, () => console.log('Server is listening on http://localhost:5000...'));
