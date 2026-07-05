@@ -76,4 +76,5 @@
 - [x] Create Movie
 - [x] Read all movies
 - [x] Movie details page
-- [] 
+- [] Search filter in db
+- [] Remove file persistance related code
