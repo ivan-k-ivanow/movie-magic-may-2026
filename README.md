@@ -74,5 +74,6 @@
 ### Refactor Movies
 - [x] Remove uuid
 - [x] Create Movie
-- [] Refactor Read all movies
+- [x] Read all movies
+- [x] Movie details page
 - [] 
