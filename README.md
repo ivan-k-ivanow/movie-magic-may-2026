@@ -86,9 +86,12 @@
 - [x] Add Artist to routes
 - [x] Add Artist header link
 - [x] Modify create form
-- [] Add artist post action
-- [] Add Artist service
-- [] Add Artist repository
+- [x] Add artist post action
+- [x] Add Artist service
+- [x] Add Artist repository
  
 ### Bonuses
 - [] Search filter in db
+- [] Name in movie
+- [] Modify service export
+ 
