@@ -85,7 +85,7 @@
 - [x] Add Artist controller
 - [x] Add Artist to routes
 - [x] Add Artist header link
-- [] Add Artist service
+- [x] Add Artist service
 - [] Add Artist repository
  
 ### Bonuses
