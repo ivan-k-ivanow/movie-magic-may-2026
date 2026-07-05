@@ -81,8 +81,10 @@
 ### Artist
 - [x] Add Resources 
 - [x] Add Artist model
-- [] Add Artist page
-- [] Add Artist controller
+- [x] Add Artist view
+- [x] Add Artist controller
+- [x] Add Artist to routes
+- [x] Add Artist header link
 - [] Add Artist service
 - [] Add Artist repository
  

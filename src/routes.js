@@ -1,12 +1,14 @@
 import { Router } from 'express';
 import homeController from './controllers/homeController.js';
 import movieController from './controllers/movieController.js';
+import artistController from './controllers/artistController.js';
 
 const routes = Router();
 
 // Setup routes
 routes.use('/', homeController);
 routes.use('/movies', movieController);
+routes.use('/artists', artistController);
 
 routes.get('*url', (req, res) => {
     res.render('404');
