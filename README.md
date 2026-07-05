@@ -78,13 +78,13 @@
 - [x] Movie details page
 - [x] Remove file persistance related code
 
-### Cast
-- [] Add Resources 
-- [] Add Cast model
-- [] Add Cast page
-- [] Add Cast controller
-- [] Add Cast service
-- [] Add Cast repository
-
+### Artist
+- [x] Add Resources 
+- [x] Add Artist model
+- [] Add Artist page
+- [] Add Artist controller
+- [] Add Artist service
+- [] Add Artist repository
+ 
 ### Bonuses
 - [] Search filter in db
