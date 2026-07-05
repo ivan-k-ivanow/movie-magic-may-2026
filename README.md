@@ -52,4 +52,15 @@
 - [x] File Presistance
 
 
+## Workshop 2 - PostgreSQL and Prisma
 
+### Prerequisites
+- [x] PostgreSQL Installed `psql --version`
+- [x] GUI Client like pgAdmin\
+
+### Setup Database
+- [x] Install and Setup TypeScript support
+- [x] Change npm start script to use tsx `tsx --watch src/index.js``
+- [x] Install Prisma related packages
+- [x] Initialize Prisma `npx prisma init --output ../generated/prisma`
+- [x] Add Database url and variable
