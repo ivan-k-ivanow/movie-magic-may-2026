@@ -85,7 +85,7 @@
 - [x] Add Artist controller
 - [x] Add Artist to routes
 - [x] Add Artist header link
-- [] Modify create form
+- [x] Modify create form
 - [] Add artist post action
 - [] Add Artist service
 - [] Add Artist repository
