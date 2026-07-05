@@ -76,5 +76,15 @@
 - [x] Create Movie
 - [x] Read all movies
 - [x] Movie details page
+- [x] Remove file persistance related code
+
+### Cast
+- [] Add Resources 
+- [] Add Cast model
+- [] Add Cast page
+- [] Add Cast controller
+- [] Add Cast service
+- [] Add Cast repository
+
+### Bonuses
 - [] Search filter in db
-- [] Remove file persistance related code
