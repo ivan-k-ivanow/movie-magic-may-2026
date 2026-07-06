@@ -98,8 +98,8 @@
 - [x] Attach functionality
 
 ### Show Artists on Details page
+- [] Modify details page
 - [] Link to attach page  
-- []
 - []
 - []
 
@@ -108,4 +108,5 @@
 - [] Search filter in db
 - [] Name in movie (Explicit Many-to-Many)
 - [] Modify service export
+- [] Show filtered artists in attach page
  
