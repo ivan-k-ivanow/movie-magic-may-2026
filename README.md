@@ -92,7 +92,7 @@
 
 ### Attach Artist to Movie
 - [x] Add relation between Artists and movies (Implicit Many-to-Many)
-- [] Add page view
+- [x] Add page view
 - [] Link to attach page   
 - [] Add dynamic data
 - [] Populate artist select
