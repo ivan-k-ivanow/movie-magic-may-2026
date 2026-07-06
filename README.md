@@ -91,7 +91,7 @@
 - [x] Add Artist repository
 
 ### Attach Artist to Movie
-- [] Add relation between Artists and movies
+- [x] Add relation between Artists and movies (Implicit Many-to-Many)
 - [] Add page view
 - [] Link to attach page   
 - [] Add dynamic data
@@ -107,6 +107,6 @@
 
 ### Bonuses
 - [] Search filter in db
-- [] Name in movie
+- [] Name in movie (Explicit Many-to-Many)
 - [] Modify service export
  
