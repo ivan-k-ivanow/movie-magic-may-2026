@@ -9,17 +9,17 @@ async function getAll(filter = {}) {
     // Partial case insensitive search
     if (filter.search) {
         movies = movies.filter(movie => movie.title.toLowerCase().includes(filter.search.toLowerCase()));
-    }
+    };
 
     // Exact Search
     if (filter.year) {
         movies = movies.filter(movie => movie.year === filter.year);
-    }
+    };
 
     // Partial case insensitive search
     if (filter.genre) {
         movies = movies.filter(movie => movie.genre.toLowerCase().includes(filter.genre.toLowerCase()));
-    }
+    };
     return movies;
 };
 
@@ -32,10 +32,10 @@ async function getById(movieId) {
 
     if (!movie) {
         throw new Error('No movie found!');
-    }
+    };
 
     return movie;
-}
+};
 
 async function create(movieData) {
     const movies = await prisma.movie.create({
@@ -43,12 +43,29 @@ async function create(movieData) {
     });
 
     return movies;
-}
+};
+
+async function attachArtist(movieId, artistId) {
+    const result = await prisma.movie.update({
+        where: {
+            id: movieId
+        },
+        data: {
+            cast: {
+                connect: {
+                    id: artistId
+                }
+            }
+        }
+    });
+    return result;
+};
 
 const movieRepository = {
     getAll,
     create,
-    getById
+    getById,
+    attachArtist
 };
 
 export default movieRepository;

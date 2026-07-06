@@ -16,10 +16,19 @@ function create(movieData) {
     return movieRepository.create(movieData);
 }
 
+function attachArtist(movieId, artistId) {
+    const movieIdNumber = Number(movieId);
+    const artistIdNumber = Number(artistId);
+     
+    const result =  movieRepository.attachArtist(movieIdNumber, artistIdNumber);
+    return result;
+}
+
 const movieService = {
     getAll,
     create,
-    getById
+    getById,
+    attachArtist
 };
 
 export default movieService;

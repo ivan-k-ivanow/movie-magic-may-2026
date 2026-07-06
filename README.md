@@ -95,7 +95,7 @@
 - [x] Add page view 
 - [x] Add dynamic data
 - [x] Populate artist select
-- [] Attach functionality
+- [x] Attach functionality
 
 ### Show Artists on Details page
 - [] Link to attach page  
