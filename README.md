@@ -89,7 +89,22 @@
 - [x] Add artist post action
 - [x] Add Artist service
 - [x] Add Artist repository
- 
+
+### Attach Artist to Movie
+- [] Add relation between Artists and movies
+- [] Add page view
+- [] Link to attach page   
+- [] Add dynamic data
+- [] Populate artist select
+- [] Attach functionality
+
+### Show Artists on Details page
+- []
+- []
+- []
+- []
+
+
 ### Bonuses
 - [] Search filter in db
 - [] Name in movie
