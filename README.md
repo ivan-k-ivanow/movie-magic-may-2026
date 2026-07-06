@@ -98,7 +98,7 @@
 - [x] Attach functionality
 
 ### Show Artists on Details page
-- [] Modify details page
+- [] Modify details page 
 - [] Link to attach page  
 - []
 - []
