@@ -27,6 +27,9 @@ async function getById(movieId) {
     const movie = await prisma.movie.findUnique({
         where: {
             id: movieId
+        },
+        include: {
+            artists: true
         }
     });
 
@@ -51,7 +54,7 @@ async function attachArtist(movieId, artistId) {
             id: movieId
         },
         data: {
-            cast: {
+            artists: {
                 connect: {
                     id: artistId
                 }

@@ -98,11 +98,9 @@
 - [x] Attach functionality
 
 ### Show Artists on Details page
-- [] Modify details page 
-- [] Link to attach page  
-- []
-- []
-
+- [x] Modify details page 
+- [x] Link to attach page  
+- [x] Show dynamic cast
 
 ### Bonuses
 - [] Search filter in db
