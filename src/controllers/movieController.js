@@ -40,16 +40,16 @@ movieController.get('/:movieId', async (req, res) => {
 
 movieController.get('/:movieId/attach', async (req, res) => {
     const movieId = req.params.movieId;
-    const movie = await movieService.getById(movieId);
 
-    const artists = await artistService.getAll(); 
+    const movie = await movieService.getById(movieId);
+    const artists = await artistService.getAll({ exclude: movie.artists.map(a => a.id) }); 
 
     res.render('movies/attach', { pageTitle: 'Attach Artist', movie, artists });
 });
 
 movieController.post('/:movieId/attach', async (req, res) => {
     const movieId = req.params.movieId;
-    const artistId = req.body.artist;
+    const artistId = req.body.artist; 
 
     await movieService.attachArtist(movieId, artistId);
 

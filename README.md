@@ -103,8 +103,8 @@
 - [x] Show dynamic cast
 
 ### Bonuses
-- [] Search filter in db
+- [x] Show filtered artists in attach page
+- [x] Search filter in db
 - [] Name in movie (Explicit Many-to-Many)
 - [] Modify service export
-- [] Show filtered artists in attach page
  
