@@ -115,7 +115,7 @@
 -[x] Add Resources
 
 ### Register
--[] Add auth controller
+-[x] Add auth controller
 -[] Add register page
 -[] Add register post action
 -[] 
