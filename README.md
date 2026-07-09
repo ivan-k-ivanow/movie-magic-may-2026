@@ -108,3 +108,17 @@
 - [] Name in movie (Explicit Many-to-Many)
 - [] Modify service export
  
+ 
+## Workshop 3 - PostgreSQL and Prisma
+
+### Intro
+-[x] Add Resources
+
+### Register
+-[] Add auth controller
+-[] Add register page
+-[] Add register post action
+-[] 
+
+
+### Bonuses
