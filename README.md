@@ -128,7 +128,7 @@
 - [x] Add login post action
 - [x] Add service method
 - [x] Add repository method
-- [] Validate password
+- [x] Validate password
 
 
 ### Bonuses
