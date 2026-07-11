@@ -31,15 +31,25 @@ model Movie {
 }
 
 model Artist {
-  id   Int      @id @default(autoincrement())
-  name String
-  age  Int
-  born String
-  imageUrl String
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id        Int      @id @default(autoincrement())
+  name      String
+  age       Int
+  born      String
+  imageUrl  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   movies Movie[]
 
   @@map("artists")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
 }

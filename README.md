@@ -118,7 +118,8 @@
 -[x] Add auth controller
 -[x] Add register page
 -[x] Add register post action
--[] 
+-[x] Add user repository
+-[] Validate repeat password
 
 
 ### Bonuses
