@@ -125,7 +125,7 @@
 
 ### Login
 - [x] Add login page
-- [] Add login post action
+- [x] Add login post action
 - [] Add service method
 - [] Add repository method
 - [] Validate password
@@ -133,3 +133,4 @@
 
 ### Bonuses
 - [ ] Validate repeat password
+- [ ] Automatic login on register

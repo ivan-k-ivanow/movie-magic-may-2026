@@ -8,16 +8,21 @@ authController.get('/register', (req, res) => {
 });
 
 authController.post('/register', async (req, res) => {
-    const {email, password, repeatPassword} = req.body;
-    
-    await authService.register({email, password, repeatPassword});
+    const { email, password, repeatPassword } = req.body;
 
-    res.redirect('/');
+    await authService.register({ email, password, repeatPassword });
+
+    res.redirect('/auth/login');
 });
 
 authController.get('/login', async (req, res) => {
     res.render('auth/login');
 });
 
+authController.post('/login', async (req, res) => {
+    const { email, password } = req.body;
+
+    res.redirect('/');
+});
 
 export default authController;
