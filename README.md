@@ -121,8 +121,15 @@
 - [x] Add service
 - [x] Add repository
 - [x] Add model
-- [ ] Hash password
-- [ ] Validate repeat password
+- [x] Hash password
+
+### Login
+- [x] Add login page
+- [] Add login post action
+- [] Add service method
+- [] Add repository method
+- [] Validate password
 
 
 ### Bonuses
+- [ ] Validate repeat password

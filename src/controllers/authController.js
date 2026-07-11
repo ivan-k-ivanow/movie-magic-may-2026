@@ -15,5 +15,9 @@ authController.post('/register', async (req, res) => {
     res.redirect('/');
 });
 
+authController.get('/login', async (req, res) => {
+    res.render('auth/login');
+});
+
 
 export default authController;
