@@ -115,11 +115,14 @@
 -[x] Add Resources
 
 ### Register
--[x] Add auth controller
--[x] Add register page
--[x] Add register post action
--[x] Add user repository
--[] Validate repeat password
+- [x] Add auth controller
+- [x] Add register page
+- [x] Add register post action
+- [x] Add service
+- [x] Add repository
+- [x] Add model
+- [ ] Hash password
+- [ ] Validate repeat password
 
 
 ### Bonuses
