@@ -126,8 +126,8 @@
 ### Login
 - [x] Add login page
 - [x] Add login post action
-- [] Add service method
-- [] Add repository method
+- [x] Add service method
+- [x] Add repository method
 - [] Validate password
 
 
