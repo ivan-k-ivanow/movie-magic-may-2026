@@ -129,6 +129,7 @@
 - [x] Add service method
 - [x] Add repository method
 - [x] Validate password
+- [x] Issue JWT token
 
 
 ### Bonuses
