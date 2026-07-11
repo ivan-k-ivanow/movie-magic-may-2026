@@ -1,9 +1,13 @@
+import userRepository from '../repositories/userRepository.js'
+
 export function register(userData) {
-    console.log('Registering user:', userData);
+    return userRepository.create(userData);
 }
 
 const authService = {
     register,
 };
+
+
 
 export default authService;
