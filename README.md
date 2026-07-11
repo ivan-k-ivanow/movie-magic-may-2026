@@ -117,7 +117,7 @@
 ### Register
 -[x] Add auth controller
 -[x] Add register page
--[] Add register post action
+-[x] Add register post action
 -[] 
 
 
