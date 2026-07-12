@@ -133,7 +133,8 @@
 - [x] Return token in cookie
 
 ### Logout
-- [ ] 
+- [x] Add logout action
+- [x] Use logout on invalid token
 
 ### Authentication & Authorization
 - [x] Create auth middleware
@@ -143,7 +144,7 @@
 - [x] Add isGuest guard
 
 ### Edit and Delete movies
-- [ ] Add user movies relation
+- [ ] Add user movies relation 
 
 ### Dynamic navigation
 - [ ]
