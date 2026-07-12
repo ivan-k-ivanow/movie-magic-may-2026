@@ -148,8 +148,9 @@
 - [x] Add owner on movie create
 - [x] Show dynamic details buttons
 - [x] Implement delete button
-- [x] Implement edit 
-- [x] Show dynamic edit page
+- [x] Add static edi page
+- [x] Show dynamic values on edit page
+- [x] Add edit post action
 
 ### Dynamic navigation
 - [ ]
@@ -158,3 +159,4 @@
 - [ ] Validate repeat password
 - [ ] Automatic login on register
 - [ ] Fix secret
+- [ ] Fix select on edit
