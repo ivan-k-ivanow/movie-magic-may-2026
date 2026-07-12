@@ -121,7 +121,7 @@
 - [x] Add service
 - [x] Add repository
 - [x] Add model
-- [x] Hash password
+- [x] Hash password `npm i bcrypt` 
 
 ### Login
 - [x] Add login page
@@ -129,7 +129,8 @@
 - [x] Add service method
 - [x] Add repository method
 - [x] Validate password
-- [x] Issue JWT token
+- [x] Issue JWT token `npm i jsonwebtoken`
+- [x] Return token in cookie
 
 
 ### Bonuses
