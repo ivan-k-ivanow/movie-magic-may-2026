@@ -153,7 +153,7 @@
 - [x] Add edit post action
 
 ### Dynamic navigation
-- [ ] Show dynamic navigation based on user session
+- [x] Show dynamic navigation based on user session
 
 ### Bonuses
 - [ ] Validate repeat password
