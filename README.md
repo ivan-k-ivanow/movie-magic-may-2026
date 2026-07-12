@@ -127,10 +127,14 @@
 - [x] Add login page
 - [x] Add login post action
 - [x] Add service method
-- [x] Add repository method
+- [x] Add findByEmail repository method
 - [x] Validate password
 - [x] Issue JWT token `npm i jsonwebtoken`
 - [x] Return token in cookie
+
+### Authentication & Authorization
+- [x] Create auth middleware
+- [x] Validate Tokne
 
 
 ### Bonuses
