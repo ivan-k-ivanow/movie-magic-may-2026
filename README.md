@@ -148,7 +148,8 @@
 - [x] Add owner on movie create
 - [x] Show dynamic details buttons
 - [x] Implement delete button
-- [x] Implement edit button
+- [x] Implement edit 
+- [x] Show dynamic edit page
 
 ### Dynamic navigation
 - [ ]
@@ -156,3 +157,4 @@
 ### Bonuses
 - [ ] Validate repeat password
 - [ ] Automatic login on register
+- [ ] Fix secret
