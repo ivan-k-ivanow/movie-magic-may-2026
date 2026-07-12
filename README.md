@@ -134,7 +134,8 @@
 
 ### Authentication & Authorization
 - [x] Create auth middleware
-- [x] Validate Tokne
+- [x] Setup cookie parser
+- [x] Validate Token
 
 
 ### Bonuses
