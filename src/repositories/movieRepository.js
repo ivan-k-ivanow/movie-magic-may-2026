@@ -14,10 +14,10 @@ async function getAll(filter = {}) {
                 contains: filter.search,
                 mode: 'insensitive'
             }
-        } 
+        }
     });
 
-    return movies; 
+    return movies;
 };
 
 async function getById(movieId) {
@@ -61,11 +61,22 @@ async function attachArtist(movieId, artistId) {
     return result;
 };
 
+async function remove(movieId, userId) {
+    const result = await prisma.movie.delete({
+        where: {
+            id: movieId,
+            userId: userId,
+        }
+    });
+    return result;
+};
+
 const movieRepository = {
     getAll,
     create,
     getById,
-    attachArtist
+    attachArtist,
+    remove
 };
 
 export default movieRepository;

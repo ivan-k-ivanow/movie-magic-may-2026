@@ -147,6 +147,8 @@
 - [x] Add user movies relation 
 - [x] Add owner on movie create
 - [x] Show dynamic details buttons
+- [x] Implement delete button
+- [x] Implement edit button
 
 ### Dynamic navigation
 - [ ]
