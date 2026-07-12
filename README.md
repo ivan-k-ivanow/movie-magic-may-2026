@@ -144,7 +144,8 @@
 - [x] Add isGuest guard
 
 ### Edit and Delete movies
-- [ ] Add user movies relation 
+- [x] Add user movies relation 
+- [x] Add owner on movie create
 
 ### Dynamic navigation
 - [ ]
