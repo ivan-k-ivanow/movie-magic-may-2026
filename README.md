@@ -158,6 +158,6 @@
 ### Bonuses
 - [ ] Validate repeat password
 - [x] Automatic login on register
-- [ ] Fix secret
-- [ ] Make token generation async
+- [x] Fix secret
 - [ ] Fix select on edit
+- [ ] Make token generation async
