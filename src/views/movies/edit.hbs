@@ -16,7 +16,7 @@
                                 <select id="category" class="inputFields" name="category">
                                     <option value="">Select Category</option>
                                     {{#each categoryOptions}}
-                                    <option value="{{this.value}}" {{#if selected}}selected{{/if}}>{{label}}</option>
+                                    <option value="{{this.value}}" {{isSelected}}>{{label}}</option>
                                     {{/each}}
                                 </select>
                             </li>
