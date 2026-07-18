@@ -156,7 +156,6 @@
 - [x] Show dynamic navigation based on user session
 
 ### Bonuses
-- [ ] Validate repeat password
 - [x] Automatic login on register
 - [x] Fix secret
 - [x] Fix select on edit
@@ -166,4 +165,19 @@
 
 ## Workshop 4 - Validation and Error Handling
 
-### 
+### Intro
+- [x] Add resources
+
+### Movie validation and error handling
+- [x] Create movie scheme with Zod
+- [x] Catch, extract and return errors
+- [x] Populate already filled data
+- [ ] Populate select category
+- [ ] Show single error
+- [ ] Show multiple errors
+
+
+- [ ] Validate Movie 
+- [ ] Validate Artist
+- [ ] Validate User
+- [ ] Validate repeat password

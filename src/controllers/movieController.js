@@ -2,6 +2,9 @@ import { Router } from 'express';
 import movieService from '../services/movieService.js';
 import artistService from '../services/artistService.js';
 import { isAuth } from '../middlewares/authMiddleware.js';
+import { createMovieSchema } from '../schemas/movieSchema.js';
+import { ZodError } from 'zod';
+import * as z from "zod";
 
 const movieController = Router();
 
@@ -14,16 +17,30 @@ movieController.get('/search', async (req, res) => {
 });
 
 movieController.get('/create', isAuth, (req, res) => {
-    res.render('movies/create', { pageTitle: 'Create Movie' });
+    const categoryOptions = prepareCategoryViewData({});
+
+    res.render('movies/create', { categoryOptions });
 });
 
 movieController.post('/create', isAuth, async (req, res) => {
     const newMovie = req.body;
     const userId = req.user.id;
 
-    await movieService.create(newMovie, userId);
+    try {
+        const movieData = createMovieSchema.parse(newMovie);
 
-    res.redirect('/');
+        await movieService.create(movieData, userId);
+
+            res.redirect('/');
+    } catch (error) {
+        if (error instanceof z.ZodError) {
+            const errors = z.flattenError(error).fieldErrors;
+
+            const categoryOptions = prepareCategoryViewData(newMovie);
+            
+            res.status(400).render('movies/create', {movie: req.body, errors, pageTitle: 'Create Movie', categoryOptions });
+        }
+    }
 });
 
 // Details page
