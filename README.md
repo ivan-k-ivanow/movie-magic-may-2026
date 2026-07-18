@@ -161,4 +161,9 @@
 - [x] Fix secret
 - [x] Fix select on edit
 - [ ] Make token generation async
-- [ ] Fix rating 
+- [ ] Fix rating  
+
+
+## Workshop 4 - Validation and Error Handling
+
+### 
