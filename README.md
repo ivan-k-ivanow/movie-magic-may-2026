@@ -161,3 +161,4 @@
 - [x] Fix secret
 - [x] Fix select on edit
 - [ ] Make token generation async
+- [ ] Fix rating 
