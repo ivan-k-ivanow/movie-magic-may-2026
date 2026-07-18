@@ -172,7 +172,7 @@
 - [x] Create movie scheme with Zod
 - [x] Catch, extract and return errors
 - [x] Populate already filled data
-- [ ] Populate select category
+- [x] Populate select category
 - [ ] Show single error
 - [ ] Show multiple errors
 
