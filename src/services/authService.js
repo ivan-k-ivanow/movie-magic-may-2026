@@ -3,12 +3,7 @@ import bcrpyt from 'bcrypt';
 import { generateAuthToken } from '../utils/tokenUtils.js';
 
 export async function register(userData) {
-    const hashPassword = await bcrpyt.hash(userData.password, 10);
-
-    const createdUser = await userRepository.create({
-        ...userData,
-        password: hashPassword,
-    });
+    const createdUser = await userRepository.create(userData);
 
     const token = generateAuthToken(createdUser);
 
@@ -34,8 +29,6 @@ export async function login(userData) {
     return token;
 
 };
-
-
 
 const authService = {
     register,

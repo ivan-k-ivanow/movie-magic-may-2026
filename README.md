@@ -188,3 +188,6 @@
 - [x] Validate User
 - [x] Validate repeat password
 - [x] Validate unique email (async validation)
+
+### Bonuses
+- [ ] Fix dynamic page titles
