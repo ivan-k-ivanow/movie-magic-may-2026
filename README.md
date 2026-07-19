@@ -188,4 +188,3 @@
 - [x] Validate User
 - [x] Validate repeat password
 - [x] Validate unique email (async validation)
-- [ ] Complex password validation
