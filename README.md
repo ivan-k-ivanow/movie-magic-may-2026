@@ -179,7 +179,13 @@
 
 
 ### Artist validation and error handling
-- [ ] Validate Movie 
-- [ ] Validate Artist
+- [x] Create schema
+- [x] Validate on creeate
+- [x] Get error message
+
+### User validation and error handling
+- [ ] Create schema 
 - [ ] Validate User
 - [ ] Validate repeat password
+- [ ] Validate unique email (async validation)
+- [ ] Complex password validation
