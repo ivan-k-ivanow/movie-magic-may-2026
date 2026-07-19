@@ -187,5 +187,5 @@
 - [x] Create schema 
 - [x] Validate User
 - [x] Validate repeat password
-- [ ] Validate unique email (async validation)
+- [x] Validate unique email (async validation)
 - [ ] Complex password validation
