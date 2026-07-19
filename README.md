@@ -190,4 +190,4 @@
 - [x] Validate unique email (async validation)
 
 ### Bonuses
-- [ ] Fix dynamic page titles
+- [x] Fix dynamic page titles
