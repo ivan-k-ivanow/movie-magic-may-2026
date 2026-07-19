@@ -184,8 +184,8 @@
 - [x] Get error message
 
 ### User validation and error handling
-- [ ] Create schema 
-- [ ] Validate User
-- [ ] Validate repeat password
+- [x] Create schema 
+- [x] Validate User
+- [x] Validate repeat password
 - [ ] Validate unique email (async validation)
 - [ ] Complex password validation
