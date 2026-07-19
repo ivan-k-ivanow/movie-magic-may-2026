@@ -1,37 +1,39 @@
-            <section id="create-cast">
-                <div class="createCastSection">
-                    <div class="info-cast">
-                        <h2>"You're gonna need a bigger boat." — "Jaws," 1975.</h2>
-                    </div>
+{{setTitle 'Create Cast'}}
 
-                    <form method="POST" class="createCastForm">
-                        <h2>Add Artist</h2>
-                        <ul class="noBullet">
-                            <li>
-                                <label for="name">Name:</label>
-                                <input type="text" class="inputFields" id="name" name="name" value="{{artist.name}}" />
-                            </li>
-                            <li>
-                                <label for="age">Age:</label>
-                                <input type="number" class="inputFields" id="age" name="age" value="{{artist.age}}" />
-                            </li>
-                            <li>
-                                <label for="born">Born:</label>
-                                <input type="text" class="inputFields" id="born" name="born" value="{{artist.born}}" />
-                            </li>
-                            <li>
-                                <label for="name-in-movie">Name in Movie:</label>
-                                <input type="text" class="inputFields" id="name-in-movie" name="nameInMovie" disabled />
-                            </li>
-                            <li>
-                                <label for="image">Cast Image:</label>
-                                <input type="text" class="inputFields" id="image" name="imageUrl" value="{{artist.imageUrl}}" />
-                            </li>
-                            <li id="center-btn">
-                                <button id="create-btn">Add Artist</button>
-                            </li>
-                        </ul>
-                    </form>
+<section id="create-cast">
+    <div class="createCastSection">
+        <div class="info-cast">
+            <h2>"You're gonna need a bigger boat." — "Jaws," 1975.</h2>
+        </div>
 
-                </div>
-            </section>
+        <form method="POST" class="createCastForm">
+            <h2>Add Artist</h2>
+            <ul class="noBullet">
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" class="inputFields" id="name" name="name" value="{{artist.name}}" />
+                </li>
+                <li>
+                    <label for="age">Age:</label>
+                    <input type="number" class="inputFields" id="age" name="age" value="{{artist.age}}" />
+                </li>
+                <li>
+                    <label for="born">Born:</label>
+                    <input type="text" class="inputFields" id="born" name="born" value="{{artist.born}}" />
+                </li>
+                <li>
+                    <label for="name-in-movie">Name in Movie:</label>
+                    <input type="text" class="inputFields" id="name-in-movie" name="nameInMovie" disabled />
+                </li>
+                <li>
+                    <label for="image">Cast Image:</label>
+                    <input type="text" class="inputFields" id="image" name="imageUrl" value="{{artist.imageUrl}}" />
+                </li>
+                <li id="center-btn">
+                    <button id="create-btn">Add Artist</button>
+                </li>
+            </ul>
+        </form>
+
+    </div>
+</section>
