@@ -173,10 +173,12 @@
 - [x] Catch, extract and return errors
 - [x] Populate already filled data
 - [x] Populate select category
-- [ ] Show single error
-- [ ] Show multiple errors
+- [x] Show single error
+- [x] Show multiple errors
+- [x] Get Prisma errors
 
 
+### Artist validation and error handling
 - [ ] Validate Movie 
 - [ ] Validate Artist
 - [ ] Validate User

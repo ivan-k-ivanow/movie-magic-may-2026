@@ -17,7 +17,7 @@ movieController.get('/search', async (req, res) => {
 });
 
 movieController.get('/create', isAuth, (req, res) => {
-    const categoryOptions = prepareCategoryViewData({});
+    const categoryOptions = prepareCategoryViewData();
 
     res.render('movies/create', { categoryOptions });
 });
@@ -31,16 +31,25 @@ movieController.post('/create', isAuth, async (req, res) => {
 
         await movieService.create(movieData, userId);
 
-            res.redirect('/');
+        res.redirect('/');
     } catch (error) {
-        if (error instanceof z.ZodError) {
-            const errors = z.flattenError(error).fieldErrors;
+        let errors = {};
+        let errorMessage = null;
+        const categoryOptions = prepareCategoryViewData(newMovie);
 
-            const categoryOptions = prepareCategoryViewData(newMovie);
-            // const firstError = Object.values(errors).flat().at(0);
-            
-            res.status(400).render('movies/create', {movie: req.body, errors, pageTitle: 'Create Movie', categoryOptions });
+        if (error.name === 'ZodError') {
+            errors = z.flattenError(error).fieldErrors;
+        } else if (error.name === 'PrismaClientKnownRequestError') {
+            switch (error.code) {
+                case 'P2002':
+                    errors = { title: ['Title must be unique'] };
+                    break;
+            }
+        } else {
+            errorMessage = error.message || 'An unexpected error ocurred';
         }
+
+        res.status(400).render('movies/create', { movie: req.body, error: errorMessage, errors, pageTitle: 'Create Movie', categoryOptions });
     }
 });
 
@@ -91,7 +100,7 @@ movieController.get('/:movieId/delete', isAuth, async (req, res) => {
 });
 
 
-function prepareCategoryViewData(movie) {
+function prepareCategoryViewData(movie = {}) {
     const categories = ['TV Show', 'Animation', 'Movie', 'Documentary', 'Short-film'];
 
     const categoryOptions = categories.map(category => {
